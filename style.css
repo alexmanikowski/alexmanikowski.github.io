@@ -125,8 +125,20 @@ h1.leftHeading {
     font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-style: normal;
-    font-size: 1.4em;
+    font-size: 3em;
+    text-align: center;
+    
+   
+   
+}
+
+h1.leftHeadingBio {
+    font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-style: normal;
+    font-size: 1.8em;
     text-align: left;
+    
    
    
 }
@@ -301,7 +313,7 @@ text-decoration: none !important;
 
 .parallaxContact {
   /* The image used */
-  background-image: url('images/alex1.JPG');
+  background-image: url('images/comp.JPG');
 
   /* Full height */
   height: 100%; 
@@ -318,8 +330,119 @@ h1.centerHeadingWhite {
    font-family: 'Raleway', sans-serif;
 font-weight: 900;
 font-style: normal;
-    font-size: 5em;
-    text-align: center;
-    
+    font-size: 4em;
+    position: static;
 color: white;
+    text-align: center;
+}
+
+
+
+.parallaxSponsors {
+  /* The image used */
+  background-image: url('images/alex2.JPG');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallaxBio {
+  /* The image used */
+  background-image: url('images/bio.jpeg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+..parallaxBio {
+  /* The image used */
+  background-image: url('images/bio.jpeg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.parallaxHome {
+  /* The image used */
+  background-image: url('images/contactform.JPG');
+
+  /* Full height */
+  height: 90%;
+    width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media (min-width: 576px){
+    .parallaxHome {
+  height: 90%;
+    width: 100%;
+    }
+}
+
+@media (min-width: 768px) { 
+ .parallaxHome {
+  height: 90%;
+    width: 100%;
+    }
+}
+
+@media (min-width: 992px) { 
+.parallaxHome {
+  height: 90%;
+    width: 100%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+  .parallaxHome {
+  height: 90%;
+    width: 100%;
+    }
+}
+
+
+
+.parallaxHomeTwo {
+  /* The image used */
+  background-image: url('images/homepage.JPG');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
