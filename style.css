@@ -275,36 +275,7 @@ text-decoration: none !important;
     height: auto;
 }
 
-.homepageImage {
-  
-      height: 100%;
-  width: 100%;
-}
 
-@media (min-width: 576px){
-    .homepageImage {
-         height: 100%;
-    }
-}
-
-@media (min-width: 768px) { 
-   .homepageImage {
-         height: 100%;
-    }
-}
-
-@media (min-width: 992px) { 
-    .homepageImage {
-         height: 100%;
-    }
-}
-
-
-@media (min-width: 1200px) {
-   .homepageImage {
-         height: 100%;
-    }
-}
 
 
 
