@@ -391,45 +391,44 @@ color: white;
   background-image: url('images/contactform.JPG');
 
   /* Full height */
-  height: 90%;
-    width: 100%;
+  height: 100%;
+   
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
 @media (min-width: 576px){
-    .parallaxHome {
-  height: 90%;
-    width: 100%;
+   .parallaxHome {
+  background-attachment: scroll;
     }
 }
 
 @media (min-width: 768px) { 
- .parallaxHome {
-  height: 90%;
-    width: 100%;
+   .parallaxHome {
+  background-attachment: scroll;
     }
 }
 
 @media (min-width: 992px) { 
-.parallaxHome {
-  height: 90%;
-    width: 100%;
+ .parallaxHome {
+  background-attachment: fixed;
     }
 }
 
 
 @media (min-width: 1200px) {
-  .parallaxHome {
-  height: 90%;
-    width: 100%;
+.parallaxHome {
+  background-attachment: fixed;
     }
+    
 }
+
+
+
 
 
 
@@ -441,8 +440,35 @@ color: white;
   height: 100%; 
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+@media (min-width: 576px){
+   .parallaxHomeTwo {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 768px) { 
+   .parallaxHomeTwo {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) { 
+ .parallaxHomeTwo {
+  background-attachment: fixed;
+    }
+}
+
+
+@media (min-width: 1200px) {
+ .parallaxHomeTwo {
+  background-attachment: fixed;
+    }
+    
 }
