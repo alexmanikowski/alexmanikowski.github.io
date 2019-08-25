@@ -296,19 +296,7 @@ text-decoration: none !important;
   height: 100%;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url('img_parallax.jpg');
 
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 .parallaxContact {
@@ -319,10 +307,36 @@ text-decoration: none !important;
   height: 100%; 
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 576px){
+   .parallaxContact {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 768px) { 
+   .parallaxContact {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) { 
+ .parallaxContact {
+  background-attachment: fixed;
+    }
+}
+
+
+@media (min-width: 1200px) {
+.parallaxContact {
+  background-attachment: fixed;
+    }
+    
 }
 
 
@@ -346,11 +360,39 @@ color: white;
   height: 100%; 
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (min-width: 576px){
+   .parallaxSponsors {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 768px) { 
+   .parallaxSponsors {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) { 
+ .parallaxSponsors {
+  background-attachment: fixed;
+    }
+}
+
+
+@media (min-width: 1200px) {
+.parallaxSponsors {
+  background-attachment: fixed;
+    }
+    
+}
+
+
 
 
 .parallaxBio {
@@ -361,26 +403,35 @@ color: white;
   height: 100%; 
 
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media (min-width: 576px){
+   .parallaxBio {
+  background-attachment: scroll;
+    }
+}
 
+@media (min-width: 768px) { 
+   .parallaxBio {
+  background-attachment: scroll;
+    }
+}
 
-
-..parallaxBio {
-  /* The image used */
-  background-image: url('images/bio.jpeg');
-
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
+@media (min-width: 992px) { 
+ .parallaxBio {
   background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    }
+}
+
+
+@media (min-width: 1200px) {
+.parallaxBio {
+  background-attachment: fixed;
+    }
+    
 }
 
 
