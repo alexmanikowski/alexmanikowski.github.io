@@ -169,6 +169,14 @@ font-style: normal;
     font-size: 1em;
 }
 
+p.centerTextFooter {
+    font-family: 'Raleway', sans-serif;
+font-weight: 300;
+font-style: normal;
+    text-align: center;
+    font-size: .9em;
+}
+
 p.centerTextHome {
     font-family: 'Raleway', sans-serif;
 font-weight: 300;
@@ -191,14 +199,14 @@ font-style: normal;
 
 @media (min-width: 992px) { 
   p.centerTextHome {
- font-size: 1.8em;
+ font-size: 1.2em;
     }
 }
 
 
 @media (min-width: 1200px) {
   p.centerTextHome {
- font-size: 2em;
+ font-size: 1.4em;
     }
     
 }
@@ -227,14 +235,14 @@ font-style: normal;
 
 @media (min-width: 992px) { 
   h1.centerHeadingHome {
- font-size: 3em;
+ font-size: 3.7em;
     }
 }
 
 
 @media (min-width: 1200px) {
   h1.centerHeadingHome {
- font-size: 3.6em;
+ font-size: 4.2em;
     }
     
 }
