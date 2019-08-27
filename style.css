@@ -169,6 +169,102 @@ font-style: normal;
     font-size: 1em;
 }
 
+p.centerTextHome {
+    font-family: 'Raleway', sans-serif;
+font-weight: 300;
+font-style: normal;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+@media (min-width: 576px){
+   p.centerTextHome {
+ font-size: 1.5em;
+    }
+}
+
+@media (min-width: 768px) { 
+     p.centerTextHome {
+ font-size: 1.8em;
+    }
+}
+
+@media (min-width: 992px) { 
+  p.centerTextHome {
+ font-size: 1.8em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+  p.centerTextHome {
+ font-size: 2em;
+    }
+    
+}
+
+h1.centerHeadingHome {
+   font-family: 'Raleway', sans-serif;
+font-weight: 900;
+font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    
+   
+}
+
+@media (min-width: 576px){
+   h1.centerHeadingHome {
+ font-size: 3em;
+    }
+}
+
+@media (min-width: 768px) { 
+     h1.centerHeadingHome {
+ font-size: 4em;
+    }
+}
+
+@media (min-width: 992px) { 
+  h1.centerHeadingHome {
+ font-size: 3em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+  h1.centerHeadingHome {
+ font-size: 3.6em;
+    }
+    
+}
+
+@media (min-width: 576px){
+   .parallaxContact {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 768px) { 
+   .parallaxContact {
+  background-attachment: scroll;
+    }
+}
+
+@media (min-width: 992px) { 
+ .parallaxContact {
+  background-attachment: fixed;
+    }
+}
+
+
+@media (min-width: 1200px) {
+.parallaxContact {
+  background-attachment: fixed;
+    }
+    
+}
+
 .centerText {
      font-family: 'Raleway', sans-serif;
 font-weight: 300;
