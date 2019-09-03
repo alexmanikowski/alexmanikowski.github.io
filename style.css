@@ -157,6 +157,7 @@ p.leftText {
    font-family: 'Poppins-light', sans-serif;
 font-weight: 100;
     font-size: .8em;
+    text-align: center;
 }
 
 p.centerText {
