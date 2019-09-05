@@ -353,7 +353,7 @@ text-decoration: none !important;
 
 .parallaxContact {
   /* The image used */
-  background-image: url('images/comp.JPG');
+  background-image: url('images/comp-web.jpg');
 
   /* Full height */
   height: 100%; 
@@ -406,7 +406,7 @@ h1.centerHeadingWhite {
 
 .parallaxSponsors {
   /* The image used */
-  background-image: url('images/alex2.JPG');
+  background-image: url('images/alex2-web.jpg');
 
   /* Full height */
   height: 100%; 
@@ -449,7 +449,7 @@ h1.centerHeadingWhite {
 
 .parallaxBio {
   /* The image used */
-  background-image: url('images/bio.jpeg');
+  background-image: url('images/bio-web.jpg');
 
   /* Full height */
   height: 100%; 
@@ -491,7 +491,7 @@ h1.centerHeadingWhite {
 
 .parallaxHome {
   /* The image used */
-  background-image: url('images/contactform.JPG');
+  background-image: url('images/contactform-web.jpg');
 
   /* Full height */
   height: 100%;
@@ -535,43 +535,4 @@ h1.centerHeadingWhite {
 
 
 
-.parallaxHomeTwo {
-  /* The image used */
-  background-image: url('images/homepage.JPG');
 
-  /* Full height */
-  height: 100%; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-@media (min-width: 576px){
-   .parallaxHomeTwo {
-  background-attachment: scroll;
-    }
-}
-
-@media (min-width: 768px) { 
-   .parallaxHomeTwo {
-  background-attachment: scroll;
-    }
-}
-
-@media (min-width: 992px) { 
- .parallaxHomeTwo {
-  background-attachment: fixed;
-    }
-}
-
-
-@media (min-width: 1200px) {
- .parallaxHomeTwo {
-  background-attachment: fixed;
-    }
-    
-}
